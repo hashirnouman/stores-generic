@@ -2,4 +2,39 @@
 
 .navbar{
     background-color: $darkPrimaryColor;
+    color: $textIconsColor;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    .logo{
+        font-size: 30px;
+        font-weight: 800;
+      
+        
+    }
+    .search-div{
+    display: flex;
+    align-items: center;
+        input{
+            width: 700px;
+            height: 30px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            padding: 3px;
+            padding-left: 5px;
+            border: 0px;
+        }
+        .search-btn{
+            background-color: $accentColor;
+              height: 30px;
+              width: 40px;
+               border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    }
+}
+input:focus{
+    outline: none;
 }

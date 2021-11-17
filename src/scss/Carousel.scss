@@ -1,0 +1,11 @@
+@import '../scss/_variables.sass';
+
+.board{
+    width: 1200px;
+    height: 500px;
+    background-color: $primaryColor;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,17 @@
+@import '../scss/_variables.sass';
+
+.bottombar{
+    background-color: $primaryColor;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color:$textIconsColor;
+    .links{
+        display: flex;
+    padding: 4px;
+    margin-left: 15px;
+    }
+    .link{
+        margin: 0 3px 0 3px;
+    }
+}
